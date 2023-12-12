@@ -1,0 +1,15 @@
+header{
+    background-color: orange;
+    padding: 15px 50px;
+}
+
+.user{
+    height: 30px;
+    width: 30px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
