@@ -1,12 +1,11 @@
 import './App.css';
-import {SiYourtraveldottv} from 'react-icons/si'
+import Header from './components/Header';
+
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1 className='logo'><SiYourtraveldottv className='user'></SiYourtraveldottv>Safar</h1>
-      </header>
+      <Header />
     </div>
   );
 }
