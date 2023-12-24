@@ -1,5 +1,6 @@
 import Button from '../components/Button';
-import {shoe8} from '../assets/images'
+import {shoe8} from '../assets/images';
+import { motion } from 'framer-motion';
 const SuperQuality = () => {
   return (
     <section id="about-us" className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container">
@@ -18,7 +19,7 @@ const SuperQuality = () => {
       </div>
 
       <div className='flex flex-1 justify-center items-center'>
-        <img src={shoe8} alt="" width={540} height={522} className='object-contain'/>
+        <motion.img  initial={{opacity: 0, scale: 0}} whileInView={{opacity: 1, scale: 1}} whileHover={{scale: 1.2}} src={shoe8} alt="" width={540} height={522} className='object-contain'/>
       </div>
     </section>
   )
